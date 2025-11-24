@@ -1,0 +1,42 @@
+{
+    "CRS.FileNamePattern": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "CRS.FileNamePatternPageCustomizations": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "CRS.OnSaveAlFileAction": "Reorganize",
+    "CRS.ObjectNameSuffix": "TNP",
+    "CRS.RemoveSuffixFromFilename": true,
+    "al.enableCodeAnalysis": true,
+    "al.codeAnalyzers": [ 
+        "${CodeCop}", 
+        "${UICop}", 
+        "${PerTenantExtensionCop}" 
+    ],
+    "al.ruleSetPath": "tnp.ruleset.json",
+    "alOutline.codeCleanupActions": [
+        "AddApplicationAreas",
+        "AddDataClassifications",
+        "AddMissingParentheses",
+        "AddTableFieldCaptions",
+        "ConvertObjectIdsToNames",
+        "FixIdentifiersCase",
+        "MakeFlowFieldsReadOnly",
+        "RemoveBeginEnd",
+        "RemoveEmptyLines",
+        "RemoveEmptySections",
+        "RemoveWithStatements",
+        "RemoveUnusedVariables",
+        "SortPermissions"
+    ],
+    "alOutline.completionProviders": [
+        "VariableDataTypes",
+        "VariableNamesWithType"
+    ],
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit"
+    },
+    "alOutline.codeActionsOnSave": [
+        "SortProperties",
+        "SortVariables"
+    ],
+    "alOutline.variablesSortMode": "mainTypeNameOnlyKeepVariableNameOrder"
+}
