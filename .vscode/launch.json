@@ -20,7 +20,7 @@
             "longRunningSqlStatementsThreshold": 500,
             "numberOfSqlStatements": 10,
             "tenant": "1b7928cc-02e2-4f22-a9d3-302dc7e966ee"
-        },
+        }/*,
     {       "name": "Go Pak DEV",
             "type": "al",
             "request": "launch",
@@ -59,6 +59,6 @@
             "longRunningSqlStatementsThreshold": 500,
             "numberOfSqlStatements": 10,
             "tenant": "be1a4bcd-8eed-40d8-9999-ba65e6d40de9"
-}
+} */
     ]
 }
